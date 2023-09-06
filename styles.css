@@ -1,0 +1,135 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+
+#header { width: 100%; height: 80px;}
+#navcontainer{    
+    flex: 1 1 auto;
+    min-height: 0;
+    min-width: 0; }
+#navegador {
+    height: 56px;
+}
+#cajalogo{height: 48px; width: 48px;}
+#cajalogo2{height: 48px; width: 48px;}
+#logoS24{height: 24px; width: 24px;}
+#logoS24 img {height: 100%; width: 100%;}
+#home{
+    flex: 0 0 auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    height: 48px; 
+    min-width: 60px;
+    background-color: black;
+}
+#create{
+    height: 48px;
+    min-width: 60px;
+}
+#dropv{height: 12px; width: 12px; margin-left: 8px;}
+#dropv img {size: 100%;}
+#search{
+    min-width: 407px;
+}
+#search-container{height: 48px;background-color: #e9e9e9;}
+#search-container-flex{
+    position: relative;
+    padding: 0 0 0 16px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    height: 100%;
+}
+#search-icon {height: 16px;width: 16px;}
+#search-icon img {size: 100%; opacity: 0.5;}
+#search-box {height: 100%;}
+#search-input {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",メイリオ,Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    width: 100%;
+    line-height: normal;
+    margin: 0;
+    vertical-align: middle;
+}
+#noti-container{height: 48px; width: 48px;}
+#mensajes-container{height: 48px; width: 48px;}
+#user-container{height: 48px; width: 48px;}
+#dropv-container{height: 24px; width: 24px;}
+#dropv2{height: 12px; width: 12px;}
+#dropv2 img {size: 100%;}
+/* global class */
+
+.displayflex{display: flex;}
+.flexdirC {flex-direction: column}
+.flexdirR {flex-direction: row;}
+.displayblock{display: block;}
+.flex11A{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    min-height: 0;
+    min-width: 0;
+}
+.flex00A{flex: 0 0 auto;}
+.pr{position: relative;}
+.marginLR0{ margin-left: 0; margin-right: 0;}
+.marginTB0{margin-top: 0; margin-bottom: 0;}
+.marginR8{margin-right: 8px;}
+.marginL8{margin-left: 8px;}
+.padlr8 {padding-left: 8px; padding-right: 8px;}
+.padlr16 { padding-left: 16px; padding-right: 16px;}
+.padtb4 { padding-top: 4px; padding-bottom: 4px;}
+.ai{align-items: center;}
+.bz{box-sizing: border-box;}
+.jc{justify-content: center;}
+.br24{border-radius: 24px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;}
+.cursor {cursor: pointer;}
+.h2 {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.h2B {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+}
+
+/* empiezan las fotos con GRID */
+
+.display-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    width: 90%;
+    margin: auto;
+}
+
+.imagen {
+    width: 252px;
+}
+
+.imagen img{
+    width: 100%;
+}
